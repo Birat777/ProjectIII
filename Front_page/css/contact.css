@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", "sans-serif";
+}
+.information{
+    
+    width: 90%; 
+    margin: auto;
+}
+.content{
+    margin-top:30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    float: left;
+    
+}
+.content ul{
+    list-style: none;
+}
+
+.content ul li h3{
+    font-weight: 500;
+}
+.content ul li p{
+    font-size:14px;
+} 
+.form{
+    margin:30px 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px;
+    float: right;
+}
+
+ h2{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #007B8A;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #ccc;
+}
+.form ul li{
+    margin-bottom: 10px;
+}
+.form .input input{
+    height:35px;
+    width: 98%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    padding-left:10px;
+}
+.form .input input:hover {
+        outline: none;
+        border-color: #007bff;
+        
+    }
+ 
+
+
+.form .button #submit{
+    margin-top: 20px;
+    border: none;
+    width: 98%;
+    background-color: #007B8A;
+    padding: 12px;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 123, 255,0.4);
+    font-size: 18px;
+}
+.form .button{
+    text-align: center;
+}
+.form .button #submit:hover{
+    box-shadow: 0px 5px 10px rgba(0, 123, 255,0.5);
+    width:100%;
+}
+.form textarea{
+    outline: none;
+    padding: 20px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form textarea:hover{
+    outline: none;
+    border-color: #007bff;
+    
+}
+.content ul li{
+    margin-bottom: 30px;
+}
+
+.form ul li{
+    list-style: none;
+}
+.form ul li input, .form ul li textarea{
+    width: 100%;
+}

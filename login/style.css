@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif; 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+} */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+.form-control {
+    margin-bottom: 15px;
+}
+.hading{
+    color: #007bff;
+    font-size: 20px;
+    font-weight:525;
+     margin-bottom: 20px;
+    
+    
+}
+ 
+
+.form-control input {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: whitesmoke;
+}
+.form-control input:hover {
+    outline: none;
+    border-color: #007bff;
+    width: 100%;
+}
+.form-control input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+/* .checkbox{
+   text-align:left;
+    font-size: 14px;
+    /* margin-bottom: 10px; 
+    padding-bottom: 10px;
+    
+}
+.checkbox input{
+    appearance: none;
+    /* display: inline-block; 
+    background-color:whitesmoke;
+    border: 1.5px solid #ccc;
+    height: 12px;
+    width: 12px;
+}
+.checkbox input:hover{
+    cursor: pointer;
+    border-color: #007bff;
+} */
+
+.login-btn {
+    width: 99%;
+    margin-top: 35px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 5px 10px rgba(0, 123, 255,0.4); 
+}
+.login-btn:hover {
+    width: 100%;
+    /* background-color: #0056b3; */
+    background-color: #FF1493;
+    /* box-shadow: 0px 5px 10px rgba(0, 123, 255,0.5);  */
+    box-shadow: 0px 5px 10px rgba(255, 105, 180,0.6);
+}
+.forget-password {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    color:solid black;
+}
+.forget-password a {
+    text-decoration: none;
+    color: #007bff;
+    
+}
+.forget-password a:hover {
+    text-decoration: underline;
+    color: #FF1493;
+    box-shadow: 0px 5px 10px rgba(255, 105, 180,0.2);
+}
+.or-horizontal-line{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 2fr;/*or repeat(3,1fr) */
+    align-items: center;
+    column-gap:0.01rem;
+    font-size:14px;
+    margin-top: 25px;
+    color:  #ccc;
+
+} 
+
+.or-horizontal-line::before,.or-horizontal-line::after{
+    content:"";
+    height:1.5px;
+    background-color:  #ccc;
+    display:block;
+
+}
+
+
+.login-link {
+    margin-top: 60px;
+    font-size: 14px;
+    color: solid black;
+}
+
+.login-link a {
+    text-decoration: none;
+    color: #007bff;
+}
+.login-link a:hover {
+    text-decoration: underline;
+    color: #FF1493;
+    box-shadow: 0px 5px 10px rgba(255, 105, 180,0.2);
+}

@@ -1,0 +1,666 @@
+/* -----------------------------------------General Reset------------------------------- */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+/* -------------------------------------------Sidebar------------------------------------- */
+ aside{
+    width: 25%;
+    border: 1px solid #ccc;
+    height: 200vh;
+    background-color: #007B8A;
+    color: white;
+}
+
+aside h2{
+    text-align: center;
+    margin: 20px 0px 60px 0px;
+    padding-bottom:20px;
+    border-bottom: 1.5px solid #fff;
+}
+
+aside .menu p{
+
+    font-size: 14px;
+    padding-left: 30px;
+    background-color: #005F6B;
+    margin:20px 0px;
+}
+aside ul{
+    list-style: none;
+}
+
+aside ul li{
+    text-decoration: none;
+    
+}
+
+aside .item button{
+    padding: 10px 0px;
+    padding-left: 50px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    background-color: #007B8A;
+    color: white;
+    border-bottom: 1px solid #ccc;
+}
+aside .item button:hover{
+    /* background-color: #a2dff7; */
+    background-color: #008794;
+    transition: 0.4s ease;
+    padding-left: 70px;
+
+}
+
+.sub-menu{
+    display: none;
+}
+
+aside .sub-item button{
+    padding: 10px;
+    margin: 1px 0px;
+    padding-left: 60px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    background-color: #005F6B;
+    color: white;
+}
+aside .sub-item button:hover{
+    color: #005F6B;
+    background-color: #6bcbeb;
+    transition: 0.4s ease;
+    padding-left: 80px;
+}
+
+
+.dsub-menu{
+    display: none;
+}
+aside .dsub-item button{
+    padding: 10px;
+    margin: 1px 0px;
+    padding-left: 60px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    background-color: #005F6B;
+    color: white;
+}
+aside .dsub-item button:hover{
+    color: #005F6B;
+    background-color: #6bcbeb;
+    transition: 0.4s ease;
+    padding-left: 80px;
+}
+
+.msub-menu{
+    display: none;
+}
+aside .msub-item button{
+    padding: 10px;
+    margin: 1px 0px;
+    padding-left: 60px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    background-color: #005F6B;
+    color: white;
+}
+aside .msub-item button:hover{
+    color: #005F6B;
+    background-color: #6bcbeb;
+    transition: 0.4s ease;
+    padding-left: 80px;
+}
+aside .item .logout{
+    margin-top: 55vh;
+    padding-left: 100px;
+    border-bottom: 1.5px solid #fff;
+}
+aside .item .logout:hover{
+    color: #007B8A;
+    transition: 0.4s ease;
+    background-color: #a2dff7;
+    padding-left: 100px;
+} 
+
+/* --------------------------------------Dashboard------------------------------------------ */
+.container{
+    display: flex;
+    height: 200vh;
+    /* gap: 3rem; */
+    margin: 0 auto;
+   
+}
+ .dashboard-main{
+    border: 1px solid #ccc;
+    background-color: #f0f2f5;
+    width: 100%;
+    padding: 1.5rem;
+}  
+ 
+.container .dashboard-main .heading h1 {
+    text-align: center;
+    color: #007B8A;
+   
+}
+.container .dashboard-main .heading p {
+    text-align: center;
+    padding-right: 60px;
+    border-bottom: 1.5px solid #007B8A;
+    padding-bottom: 10px;
+   
+}
+.container .dashboard-main .dashboard h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #007B8A;
+}
+
+/*---Doctor--- */
+.container .dashboard-main .dashboard .doctor-appointments {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.container .dashboard-main .dashboard .doctor-appointments .doctor-card {
+    flex: 1;
+    /* background-color: white; */
+    background-color: #007B8A;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.container .dashboard-main .dashboard .doctor-appointments .doctor-card p {
+    font-size: 18px;
+    font-weight: bold;
+} 
+.container .dashboard-main .dashboard .doctor-appointments .doctor-card button{
+    border: none;
+    padding: 3px 10px;
+    margin-top: 5px;
+    background-color: #ccc;
+    border-radius: 20px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.5);
+}
+.container .dashboard-main .dashboard .doctor-appointments .doctor-card button:hover{
+    background-color: grey;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+ 
+
+
+/* -----------------------------------for patient appointment --------------------------------------- */
+
+.container .addappointment-main{
+    border: 1px solid #ccc;
+    background-color: #f0f2f5;
+    width: 100%;
+    padding: 1.5rem;
+}  
+.container .addappointment-main .heading h2{
+    margin: 10px 30px;
+    padding: 8px 0px;
+    text-align: center;
+    background-color: #005F5F;
+    color: #fff;
+    border-radius: 10px;
+    /* border-bottom: 1.5px solid #007B8A; */
+    margin-bottom: 40px;
+
+} 
+.container .addappointment-main .heading p{
+    margin:0px 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+} 
+
+.container .addappointment-main .addappointment form {
+    background-color: white;
+    padding: 20px;
+    margin: 0px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.addappointment form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.addappointment form input, form select, form button {
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+}
+form input:hover {
+    outline: none;
+    border-color: #007bff;
+    width:100%;
+}
+
+form select:hover{
+   outline: none;
+    border-color: #007bff;
+    width:100%;
+}
+form input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+form select :focus{
+    outline: none;
+    border-color: #007bff;
+}
+
+
+.addappointment form button {
+    background-color: #007B8A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005F6B;
+}
+
+/* --------------------------------------------Appointment list---------------------------------- */
+.list-container{
+    width: 1555px;
+}
+.container .appointmentlist-main{
+    border: 1px solid #ccc;
+    background-color: #f0f2f5;
+    width: 2000px;
+    padding: 1.5rem;
+} 
+.container .appointmentlist-main .heading h2{
+    margin: 10px 30px;
+    
+    padding: 8px 0px;
+    text-align: center;
+    background-color: #005F5F;
+    border-radius: 10px;
+    color: #fff;
+    /* border-bottom: 1.5px solid #007B8A; */
+
+}
+.container .appointmentlist-main .appointmentlist .content-table{
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 0.9em;
+    min-width: 1200px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.appointmentlist .content-table thead tr{
+    background-color: #007B8A;
+    color: #fff;
+    text-align: left;
+
+}
+.appointmentlist .content-table th, .appointmentlist .content-table td{
+    padding: 10px 5px;
+
+}
+
+.appointmentlist .content-table tbody tr{
+    border-bottom: 1.5px solid #ddd;
+}
+
+.appointmentlist .content-table tbody tr:nth-of-type(even){
+    background-color: whitesmoke;
+}
+.appointmentlist .content-table tbody tr:last-of-type{
+    border-bottom: 3px solid #007B8A;
+}
+.appointmentlist .content-table td a{
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.appointmentlist .content-table td .edit{
+    color: #007bff;
+    font-size: 16px;
+}
+.appointmentlist .content-table td .delete{
+    color: #ff0000;
+    font-size: 16px;
+}
+
+.appointmentlist .content-table td .edit:hover{
+    border-bottom: 1.5px solid #007bff;
+} 
+.appointmentlist .content-table td .delete:hover{
+    border-bottom: 1.5px solid #ff0000;
+}
+
+
+
+
+/* ---------------------------------------Add Doctor------------------------------------------------ */
+.container .adddoctor-main{
+    border: 1px solid #ccc;
+    background-color: #f0f2f5;
+    width: 100%;
+    padding: 1.5rem;
+}  
+.container .adddoctor-main .heading h2{
+    margin: 10px 30px;
+    padding: 8px 0px;
+    text-align: center;
+    background-color: #005F5F;
+    color: #FFF;
+    border-radius: 10px;
+    /* border-bottom: 1.5px solid #007B8A; */
+    margin-bottom: 40px;
+
+} 
+.container .adddoctor-main .heading p{
+    margin:0px 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+} 
+
+.container .adddoctor-main .adddoctor form {
+    background-color: white;
+    padding: 20px;
+    margin: 0px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.adddoctor form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.adddoctor form input, form select, form button {
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+}
+.adddoctor form input:hover {
+    outline: none;
+    border-color: #007bff;
+    width:100%;
+}
+
+.adddoctor form select:hover{
+   outline: none;
+    border-color: #007bff;
+    width:100%;
+}
+.adddoctor form input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.adddoctor form select :focus{
+    outline: none;
+    border-color: #007bff;
+}
+
+
+.adddoctor form button {
+    background-color: #007B8A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.adddoctor form button:hover {
+    background-color: #005F6B;
+}
+
+/* --------------------------------------------Doctor list---------------------------------- */
+
+.container .doctorlist-main{
+    border: 1px solid #ccc;
+    background-color: #f0f2f5;
+    width: 2000px;
+    padding: 1.5rem;
+} 
+.container .doctorlist-main .heading h2{
+    margin: 10px 30px;
+    padding: 8px 0px;
+    text-align: center;
+    background-color: #005F5F;
+    /* background-color: #005F6B; */
+    color: #FFF;
+    border-radius: 10px;
+    /* border-bottom: 1.5px solid #007B8A; */
+
+}
+.container .doctorlist-main .doctorlist .content-table{
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 0.9em;
+    min-width: 1200px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.doctorlist .content-table thead tr{
+    background-color: #007B8A;
+    color: #fff;
+    text-align: left;
+
+}
+.doctorlist .content-table th, .doctorlist .content-table td{
+    padding: 10px 5px;
+
+}
+
+.doctorlist .content-table tbody tr{
+    border-bottom: 1.5px solid #ddd;
+}
+
+.doctorlist .content-table tbody tr:nth-of-type(even){
+    background-color: whitesmoke;
+}
+.doctorlist .content-table tbody tr:last-of-type{
+    border-bottom: 3px solid #007B8A;
+}
+
+.doctorlist .content-table td a{
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.doctorlist .content-table td .edit{
+    color: #007bff;
+    font-size: 16px;
+}
+.doctorlist .content-table td .delete{
+    color: #ff0000;
+    font-size: 16px;
+}
+
+.doctorlist .content-table td .edit:hover{
+    border-bottom: 1.5px solid #007bff;
+} 
+.doctorlist .content-table td .delete:hover{
+    border-bottom: 1.5px solid #ff0000;
+}
+
+
+
+/* ---------------------------------------Add Medicine------------------------------------------------ */
+.container .addmedicine-main{
+    border: 1px solid #ccc;
+    background-color: #f0f2f5;
+    width: 100%;
+    padding: 1.5rem;
+}  
+.container .addmedicine-main .heading h2{
+    margin: 10px 30px;
+    padding: 8px 0px;
+    text-align: center;
+    background-color: #005F5F;
+    color: #FFF;
+    border-radius: 10px;
+    /* border-bottom: 1.5px solid #007B8A; */
+    margin-bottom: 40px;
+
+} 
+.container .addmedicine-main .heading p{
+    margin:0px 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+} 
+
+.container .addmedicine-main .addmedicine form {
+    background-color: white;
+    padding: 20px;
+    margin: 0px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.addmedicine form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.addmedicine form input, form select, form button {
+    width: 99%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    outline: none;
+}
+.addmedicine form input:hover {
+    outline: none;
+    border-color: #007bff;
+    width:100%;
+}
+
+.addmedicine form select:hover{
+   outline: none;
+    border-color: #007bff;
+    width:100%;
+}
+.addmedicine form input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.addmedicine form select :focus{
+    outline: none;
+    border-color: #007bff;
+}
+
+
+.addmedicine form button {
+    background-color: #007B8A;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.addmedicine form button:hover {
+    background-color: #005F6B;
+}
+
+/* --------------------------------------------Doctor list---------------------------------- */
+
+.container .medicinelist-main{
+    border: 1px solid #ccc;
+    background-color: #f0f2f5;
+    width: 2000px;
+    padding: 1.5rem;
+} 
+.container .medicinelist-main .heading h2{
+    margin: 10px 30px;
+    padding: 8px 0px;
+    text-align: center;
+    background-color: #005F5F;
+    /* background-color: #005F6B; */
+    color: #FFF;
+    border-radius: 10px;
+    /* border-bottom: 1.5px solid #007B8A; */
+
+}
+.container .medicinelist-main .medicinelist .content-table{
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 0.9em;
+    min-width: 1200px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.medicinelist .content-table thead tr{
+    background-color: #007B8A;
+    color: #fff;
+    text-align: left;
+
+}
+.medicinelist .content-table th, .medicinelist .content-table td{
+    padding: 10px 5px;
+
+}
+
+.medicinelist .content-table tbody tr{
+    border-bottom: 1.5px solid #ddd;
+}
+
+.medicinelist .content-table tbody tr:nth-of-type(even){
+    background-color: whitesmoke;
+}
+.medicinelist .content-table tbody tr:last-of-type{
+    border-bottom: 3px solid #007B8A;
+}
+
+.medicinelist .content-table td a{
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.medicinelist .content-table td .edit{
+    color: #007bff;
+    font-size: 16px;
+}
+.medicinelist .content-table td .delete{
+    color: #ff0000;
+    font-size: 16px;
+}
+
+.medicinelist .content-table td .edit:hover{
+    border-bottom: 1.5px solid #007bff;
+} 
+.medicinelist .content-table td .delete:hover{
+    border-bottom: 1.5px solid #ff0000;
+}

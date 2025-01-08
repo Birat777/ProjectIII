@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  'poppins', sans-serif;
+}
+
+.about-container{
+   
+    margin:30px 1%;
+    padding:40px;
+    /* background-color: #fff; */
+    /* box-shadow:0 4px 10px rgba(0, 0, 0, 0.5); */
+
+}
+/* ---------------------------------------------Our Services--------------------------------------- */
+ .heading1{ 
+    text-align: center;
+    padding: 20px 20px;
+    color: #007B8A;
+    margin: 0px 20px;
+    border-bottom: 1.5px solid #ccc;
+}
+.heading2{
+    text-align: center;
+    padding: 20px 20px;
+    color: #007B8A;
+    margin:0px 20px;
+    margin-top: 80px;
+    border-bottom: 1.5px solid #ccc;
+}
+
+
+.img-services{
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    
+}
+
+.service-card {
+    
+    background-color: white;
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 30px;
+     padding-bottom: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.serviceA{
+    display: flex;
+    position: relative;
+    left:110px;
+    width:940px;
+    gap: 100px;
+    padding: 20px;
+    
+    /* box-shadow:0 4px 10px rgba(0, 0, 0, 0.5); */
+}
+.serviceB{
+    display: flex;
+    position: relative;
+    left:110px;
+    width:940px;
+    gap: 100px;
+    padding: 20px;
+    
+    /* box-shadow:0 4px 10px rgba(0, 0, 0, 0.5); */
+}
+

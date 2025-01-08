@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  'poppins', sans-serif;
+}
+
+.about-container{
+   
+    margin:30px 0%;
+    padding:40px;
+    border-radius: 30px;
+    /* box-shadow:0 4px 10px rgba(0, 0, 0, 0.5); */
+}
+
+h2{ 
+    text-align: center;
+    padding: 20px 20px;
+    color: #007B8A;
+    margin: 0px 20px;
+    border-bottom: 1.5px solid #ccc;
+}
+.img{
+   float: right;
+   margin: 5px 0px;
+   padding: 20px 20px;
+   border-radius:30px;
+   width: 400px;
+   height: 450px;
+  
+}
+.about p{
+   padding: 30px 20px;
+   text-align: justify;
+}
+
+
+
+/* ---------------------------------------------Our Doctors--------------------------------------- */
+.our-doctors {
+    margin: 20px 20px;
+    display: flex;
+    gap:25px;
+    align-items: center;
+    padding-left: 85px;
+    padding-bottom: 30px;
+}
+
+.doctors h2{
+    
+   text-align: center;
+   color: #007B8A;
+   margin: 100px 5%;
+   margin-top: 200px;
+   /* padding-bottom: 20px; */
+   border-bottom: 1.5px solid #ccc;
+}
+
+.doctor-card {
+    
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.doctor-card p {
+    font-size: 18px;
+    font-weight: bold;
+}
+.img-doctors{
+    width: 250px;
+    height:380px;
+    /* padding: 20px; */
+    border-radius: 30px;
+}

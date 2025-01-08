@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif; 
+}
+
+/* -----------------------------------------------For Body-------------------------------------------- */
+.loginbody {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+ 
+}
+
+/* ------------------------------------For Login Container Part------------------------------------- */
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+/* --------------------------------------For Close------------------------------------------------ */
+/* .login-container #close{
+    position:absolute;
+    top:70px;
+    right: 470px;
+    align-items: right;
+    width: 20px;
+     height: 20px;
+     cursor: pointer;
+     border-radius: 60px ;
+}
+.login-container #close:hover{
+    width: 22px;
+    height: 22px;
+
+} */
+/* ---------------------------------------For heading--------------------------------------------- */
+.hading p{
+    color: #007B8A;
+    font-size: 28px;
+    font-weight:600;
+    margin-bottom: 15px;
+}
+
+h2{
+    color:#FF1493;
+    margin-bottom: 20px;
+}
+
+/* -----------------------------------For Form input type----------------------------------------- */
+.form-input {
+    margin-bottom: 15px;
+}
+
+.form-input input {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: whitesmoke;
+}
+
+.form-input input:hover {
+    outline: none;
+    border-color: #007bff;
+    width: 100%;
+}
+
+.form-input input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* ----------------------------------------------For Login Button------------------------------- */
+.login-btn {
+    width: 99%;
+    margin-top: 35px;
+    /* background-color: #007bff; */
+    background-color: #007B8A;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 5px 10px rgba(0, 123, 255,0.4); 
+}
+.login-btn:hover {
+    width: 100%;
+    background-color: #FF1493;
+    box-shadow: 0px 5px 10px rgba(255, 105, 180,0.6);
+}
+
+/* ------------------------------------------For Forget Password------------------------------------ */
+.forget-password {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    color:solid black;
+}
+.forget-password a {
+    text-decoration: none;
+    color: #007B8A;
+    
+}
+.forget-password a:hover {
+    text-decoration: underline;
+    color: #FF1493;
+    box-shadow: 0px 5px 10px rgba(255, 105, 180,0.2);
+}
+
+/* ---------------------------------------For OR horizontal line----------------------------------- */
+.or-horizontal-line{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 2fr;/*or repeat(3,1fr) */
+    align-items: center;
+    column-gap:0.01rem;
+    font-size:14px;
+    margin-top: 25px;
+    color:  #ccc;
+
+} 
+
+.or-horizontal-line::before,.or-horizontal-line::after{
+    content:"";
+    height:1.5px;
+    background-color:  #ccc;
+    display:block;
+}
+
+
+/* -----------------------------------------For Signup Link------------------------------------------- */
+
+.signup-link {
+    margin-top: 30px;
+    font-size: 14px;
+    color: solid black;
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: #007B8A;
+}
+.signup-link a:hover {
+    text-decoration: underline;
+    color: #FF1493;
+    box-shadow: 0px 5px 10px rgba(255, 105, 180,0.2);
+}
+
+p{
+    color: black;
+}
